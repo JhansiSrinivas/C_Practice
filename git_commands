@@ -1,0 +1,17 @@
+git clone -->cloning the git URL into local machine
+
+git add filename --> Stagging the file 
+
+git status --> gives you the current status of file with modifications
+
+git commint -m "text" --> commits all the changes made in stagging 
+
+git push origin main --> push the files into git repo 
+
+git diff filename --> gives changes made to the file what added and what deleted for a file 
+
+git log
+
+git checkout filename -->
+
+git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n' 
