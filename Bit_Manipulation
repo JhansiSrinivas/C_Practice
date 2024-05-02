@@ -1,0 +1,304 @@
+//LSB
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    if((n&1)==1)
+    {
+    printf("LSB=1");
+    }
+    else
+    {
+        printf("LSB=0");
+    }
+}
+******************************************************************************
+//MSB
+#include<stdio.h>
+#define SIZE 32
+int main()
+{
+    int n,msb;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    int MSB;
+    MSB=(1<<SIZE-1);
+    if(n&MSB)
+    {
+        printf("MSB=1");
+    }
+    else
+    {
+        printf("MSB=0");
+    }
+    return 0;
+}
+***************************************************************************
+//set nth bit
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+   int n,pos;
+   printf("Enter n\n");
+   scanf("%d",&n);
+   printf("\nEnter pos:");
+   scanf("%d",&pos);
+   int bit=(1<<pos)|n;
+   printf("set=%d",bit);
+    return 0;
+}
+*************************************************************************
+//clear nth bit
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+   int n,pos;
+   printf("Enter n\n");
+   scanf("%d",&n);
+   printf("\nEnter pos:");
+   scanf("%d",&pos);
+   int bit=(~(1<<pos))&n;
+   printf("clear=%d",bit);
+    return 0;
+}
+***************************************************************************
+//get nth bit
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+   int n,pos;
+   printf("Enter n\n");
+   scanf("%d",&n);
+   printf("\nEnter pos:");
+   scanf("%d",&pos);
+   int bit=(n>>pos)&1;
+   printf("%d",bit);
+    return 0;
+}
+*******************************************************************
+//Toggle nth bit
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+   int n,pos;
+   printf("Enter n\n");
+   scanf("%d",&n);
+   printf("Enter pos\n");
+   scanf("%d",&pos);
+   int bit=(1<<pos)^n;
+   printf("Value after Toggle=%d",bit);
+    return 0;
+}
+*********************************************************************
+//Even or Odd
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter n\n");
+    scanf("%d",&n);
+    if((n&1)==1)
+    {
+        printf("%d is odd",n);
+    }
+    else
+        printf("%d is even",n);
+    
+}
+*************************************************************************
+//Count zeroes and ones
+#include<stdio.h>
+#define SIZE 32
+int main()
+{
+    int n,ones,zeroes;
+    printf("Enter n\n");
+    scanf("%d",&n);
+    for(int i=0;i<=SIZE-1;i++)
+    {
+        if((n&1)==1)
+        {
+            ones++;
+        }
+        else
+        zeroes ++;
+        n=n>>1;
+    }
+    printf("Ones=%d\tZeroes=%d",ones,zeroes);
+}
+**************************************************************************
+//Decimal to Binary
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+    int n,i;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    for(i=SIZE-1;i>=0;i--)
+    {
+        int bit=(n>>i)&1;
+        printf("%d",bit);
+    }
+}
+**************************************************************************
+//Flip all the bits
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+    int n;
+    printf("Enter n\n");
+    scanf("%d",&n);
+    n=~n;
+    printf("Not of a number:%d",n);
+    return 0;
+}
+************************************************************************
+//Swapping 2 positions
+#include<stdio.h>
+int main()
+{
+    int n,p1,p2,a,b,r;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    printf("Enter p1:\n");
+    scanf("%d",&p1);
+    printf("Enter p2:\n");
+    scanf("%d",&p2);
+    a=(n>>p1)&1;
+    b=(n>>p2)&1;
+    r=a^b;
+    r=(r<<p1)^(r<<p2);
+    n^=r;
+    printf("%d",n);
+    return 0;
+}
+***************************************************************************
+//Swapping 2 numbers using bitwise operator
+#include<stdio.h>
+int main()
+{
+    int n1,n2;
+    printf("Enter n1 and n2:\n");
+    scanf("%d %d",&n1,&n2);
+    printf("Before swapping:%d\t%d\n",n1,n2);
+    n1^=n2;
+    n2^=n1;
+    n1^=n2;
+    printf("After swapping:%d\t%d",n1,n2);
+}
+************************************************************************
+//Highest set bit
+#include<stdio.h>
+#define SIZE 32
+int main()
+{
+    int n,i,order;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    for(i=0;i<SIZE;i++)
+    {
+        if(((n>>i)&1)==1)
+        {
+            order=i;
+        }
+    }
+    printf("Highest set bit position=%d",order);
+}
+**************************************************************************
+//Lowest set bit
+#include<stdio.h>
+#define SIZE 32
+int main()
+{
+    int n,i,order;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    for(i=0;i<SIZE;i++)
+    {
+        if(((n>>i)&1)==1)
+        {
+            order=i;
+            break;
+        }
+    }
+    printf("Highest set bit position=%d",order);
+}
+************************************************************************
+//Trailing zeroes
+#include<stdio.h>
+int main()
+{
+    int n,count=0;
+    printf("Enter n\n");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        if(((n>>i)&1)==1)
+        {
+            break;
+        }
+        count ++;
+    }
+    printf("Trailing Zeroes count:%d",count);
+}
+*************************************************************************
+//Leading zeroes
+#include<stdio.h>
+#define SIZE 32
+int main()
+{
+    int n,count=0;
+    printf("Enter n\n");
+    scanf("%d",&n);
+    int msb=1<<(SIZE-1);
+    for(int i=0;i<SIZE;i++)
+    {
+        if((n<<i)&msb)
+        {
+            break;
+        }
+        count ++;
+    }
+    printf("Leading Zeroes count:%d",count);
+return 0;
+}
+********************************************************************
+//Nibble swap
+#include<stdio.h>
+#define SIZE 32
+int main()
+{
+    int n;
+    printf("Enter n:");
+    scanf("%d",&n);
+    int a=n>>4;
+    int b=n<<4;
+    int r=a^b;
+    printf("\n%d",r);
+return 0;
+}
+************************************************************************
+//Reverse a bit
+#include<stdio.h>
+#define SIZE 8
+int main()
+{
+    int n,r;
+    printf("Enter n:\n");
+    scanf("%d",&n);
+    for(int i=0;i<SIZE;i++)
+    {
+        int bit=(n>>i)&1;
+        r|=(bit<<(SIZE-1)-i);
+    }
+    printf("%d",r);
+}
+
