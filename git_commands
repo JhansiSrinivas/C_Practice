@@ -28,4 +28,10 @@ process to create an empty branch without carry the files from main branch
 
 1) git checkout --orphan new
 2) git rm -rf .
-3) git checkout -b new 
+3) git checkout -b new
+
+Process to merge the data from current branch to main branch 
+1)git commit -m "Merge new_branch into current branch"
+2) git merge new_branch --allow-unrelated-histories
+3) git push origin main
+ 
