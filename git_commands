@@ -24,4 +24,8 @@ git branch -d branch_name --> to delete the branch locally
 
 git push origin --delete branch_name --> deletes the branch from github
 
-   
+process to create an empty branch without carry the files from main branch
+
+1) git checkout --orphan new
+2) git rm -rf .
+3) git checkout -b new 
