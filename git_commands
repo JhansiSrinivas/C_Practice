@@ -16,4 +16,12 @@ git checkout filename -->
 
 git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
 
- 
+git branch branch_name --> to create a new branch
+
+git checkout branch_name --> to check in which branch it is currently residing
+
+git branch -d branch_name --> to delete the branch locally
+
+git push origin --delete branch_name --> deletes the branch from github
+
+   
