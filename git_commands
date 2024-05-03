@@ -34,4 +34,17 @@ Process to merge the data from current branch to main branch
 1)git commit -m "Merge new_branch into current branch"
 2) git merge new_branch --allow-unrelated-histories
 3) git push origin main
- 
+
+When you want to change to different file or different branch from currently working file or directory without commiting the change we can save the changes made in file without sending it to stagging state using following command 
+
+git stash -u 
+
+git stash apply 
+
+Restore
+
+git restore filename --> restore the previous changes made for the file and not the current changes made  
+
+Rebase 
+
+git rebase --> tells that the current branch is uptodate
