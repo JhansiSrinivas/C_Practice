@@ -48,3 +48,7 @@ git restore filename --> restore the previous changes made for the file and not 
 Rebase 
 
 git rebase --> tells that the current branch is uptodate
+
+git pull origin main --> pulls the changes made in github repo to local repo 
+
+git push origin main --> pushes changes made in local repo to github repo
