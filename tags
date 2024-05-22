@@ -1,0 +1,185 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Arr_1_Dim	dhry.h	/^typedef int     Arr_1_Dim [50];$/;"	t
+Arr_1_Glob	dhry_1.c	/^int             Arr_1_Glob [50];$/;"	v
+Arr_2_Dim	dhry.h	/^typedef int     Arr_2_Dim [50] [50];$/;"	t
+Arr_2_Glob	dhry_1.c	/^int             Arr_2_Glob [50] [50];$/;"	v
+Array1Dim	dhrystone.c	/^typedef int	Array1Dim[51];$/;"	t	file:
+Array1Glob	dhrystone.c	/^Array1Dim	Array1Glob;$/;"	v
+Array2Dim	dhrystone.c	/^typedef int	Array2Dim[51][51];$/;"	t	file:
+Array2Glob	dhrystone.c	/^Array2Dim	Array2Glob;$/;"	v
+Array_Par_In_Out_2	d_pack_2.s	/^                    Array_Par_In_Out_2: in out Array_2_Dim_Integer;$/;"	l
+Begin_Time	dhry_1.c	/^long            Begin_Time,$/;"	v
+BoolGlob	dhrystone.c	/^boolean		BoolGlob;$/;"	v
+Bool_Glob	dhry_1.c	/^Boolean         Bool_Glob;$/;"	v
+Boolean	dhry.h	/^typedef int     Boolean;$/;"	t
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O0 $/;"	m
+CapitalLetter	dhrystone.c	/^typedef char	CapitalLetter;$/;"	t	file:
+Capital_Letter	dhry.h	/^typedef char    Capital_Letter;$/;"	t
+Ch_1_Comp	dhry.h	/^                  char        Ch_1_Comp;$/;"	m	struct:record::__anon3::__anon6
+Ch_1_Glob	dhry_1.c	/^char            Ch_1_Glob,$/;"	v
+Ch_2_Comp	dhry.h	/^                  char        Ch_2_Comp;$/;"	m	struct:record::__anon3::__anon6
+Ch_2_Glob	dhry_1.c	/^                Ch_2_Glob;$/;"	v
+Char1Glob	dhrystone.c	/^char		Char1Glob;$/;"	v
+Char2Glob	dhrystone.c	/^char		Char2Glob;$/;"	v
+Char_Comp_2	d_global.s	/^                    Char_Comp_2:    character;$/;"	l
+Char_Glob_1	d_pack_1.s	/^  Char_Glob_1:       character;$/;"	l
+Char_Par_In_2	d_pack_2.s	/^                   Char_Par_In_2:       in     Capital_Letter)$/;"	l
+Dhrystones_Per_Second	dhry_1.c	/^                Dhrystones_Per_Second;$/;"	v
+Discr	dhry.h	/^    Enumeration    Discr;$/;"	m	struct:record
+Discr	dhrystone.c	/^	Enumeration		Discr;$/;"	m	struct:Record	file:
+E_Comp_2	dhry.h	/^                  Enumeration E_Comp_2;$/;"	m	struct:record::__anon3::__anon5
+End_Time	dhry_1.c	/^                End_Time,$/;"	v
+EnumComp	dhrystone.c	/^	Enumeration		EnumComp;$/;"	m	struct:Record	file:
+Enum_Comp	d_global.s	/^                    Enum_Comp:      Enumeration;$/;"	l
+Enum_Comp	dhry.h	/^                  Enumeration Enum_Comp;$/;"	m	struct:record::__anon3::__anon4
+Enum_Comp_2	d_global.s	/^                    Enum_Comp_2:    Enumeration;$/;"	l
+Enum_Par_Out	d_pack_2.s	/^                    Enum_Par_Out:       out    Enumeration);$/;"	l
+Enumeration	dhry.h	/^                Enumeration;$/;"	t	typeref:enum:__anon2
+Enumeration	dhry.h	/^  typedef int   Enumeration;$/;"	t
+Enumeration	dhrystone.c	/^typedef enum	{Ident1, Ident2, Ident3, Ident4, Ident5} Enumeration;$/;"	t	typeref:enum:__anon1	file:
+Enumeration	dhrystone.c	/^typedef int	Enumeration;$/;"	t	file:
+FALSE	dhrystone.c	449;"	d	file:
+Func1	dhry.p	/^function Func1; (* (Char1ParVal,$/;"	f
+Func1	dhrystone.c	/^Enumeration Func1(CharPar1, CharPar2)$/;"	f
+Func2	dhry.p	/^function Func2; (* (var String1ParRef,$/;"	f
+Func2	dhrystone.c	/^boolean Func2(StrParI1, StrParI2)$/;"	f
+Func3	dhry.p	/^function Func3; (* (EnumParVal: Enumeration): boolean *)$/;"	f
+Func3	dhrystone.c	/^boolean Func3(EnumParIn)$/;"	f
+Func_1	dhry_2.c	/^Enumeration Func_1 (Ch_1_Par_Val, Ch_2_Par_Val)$/;"	f
+Func_2	dhry_2.c	/^Boolean Func_2 (Str_1_Par_Ref, Str_2_Par_Ref)$/;"	f
+Func_3	dhry_2.c	/^Boolean Func_3 (Enum_Par_Val)$/;"	f
+HZ	dhry.h	357;"	d
+HZ	dhry.h	360;"	d
+HZ	dhry_1.c	25;"	d	file:
+HZ	dhry_2.c	25;"	d	file:
+HZ	dhrystone.c	399;"	d	file:
+Ident1	dhrystone.c	/^typedef enum	{Ident1, Ident2, Ident3, Ident4, Ident5} Enumeration;$/;"	e	enum:__anon1	file:
+Ident1	dhrystone.c	417;"	d	file:
+Ident2	dhrystone.c	/^typedef enum	{Ident1, Ident2, Ident3, Ident4, Ident5} Enumeration;$/;"	e	enum:__anon1	file:
+Ident2	dhrystone.c	418;"	d	file:
+Ident3	dhrystone.c	/^typedef enum	{Ident1, Ident2, Ident3, Ident4, Ident5} Enumeration;$/;"	e	enum:__anon1	file:
+Ident3	dhrystone.c	419;"	d	file:
+Ident4	dhrystone.c	/^typedef enum	{Ident1, Ident2, Ident3, Ident4, Ident5} Enumeration;$/;"	e	enum:__anon1	file:
+Ident4	dhrystone.c	420;"	d	file:
+Ident5	dhrystone.c	/^typedef enum	{Ident1, Ident2, Ident3, Ident4, Ident5} Enumeration;$/;"	e	enum:__anon1	file:
+Ident5	dhrystone.c	421;"	d	file:
+Ident_1	dhry.h	/^  typedef       enum    {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5}$/;"	e	enum:__anon2
+Ident_1	dhry.h	380;"	d
+Ident_2	dhry.h	/^  typedef       enum    {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5}$/;"	e	enum:__anon2
+Ident_2	dhry.h	381;"	d
+Ident_3	dhry.h	/^  typedef       enum    {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5}$/;"	e	enum:__anon2
+Ident_3	dhry.h	382;"	d
+Ident_4	dhry.h	/^  typedef       enum    {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5}$/;"	e	enum:__anon2
+Ident_4	dhry.h	383;"	d
+Ident_5	dhry.h	/^  typedef       enum    {Ident_1, Ident_2, Ident_3, Ident_4, Ident_5}$/;"	e	enum:__anon2
+Ident_5	dhry.h	384;"	d
+IntComp	dhrystone.c	/^	OneToFifty		IntComp;$/;"	m	struct:Record	file:
+IntGlob	dhrystone.c	/^int		IntGlob;$/;"	v
+Int_Comp	d_global.s	/^                    Int_Comp:       One_To_Fifty;$/;"	l
+Int_Comp	dhry.h	/^                  int         Int_Comp;$/;"	m	struct:record::__anon3::__anon4
+Int_Glob	d_pack_1.s	/^  Int_Glob:          integer;$/;"	l
+Int_Glob	dhry_1.c	/^int             Int_Glob;$/;"	v
+Int_Par_In_2	d_pack_2.s	/^                    Int_Par_In_2:       in     One_To_Fifty;$/;"	l
+Int_Par_In_2	d_pack_2.s	/^                    Int_Par_In_2:       in     integer);$/;"	l
+Int_Par_Out	d_pack_2.s	/^                    Int_Par_Out:        out    One_To_Fifty);$/;"	l
+LOOPS	dhrystone.c	387;"	d	file:
+Mic_secs_Per_Second	dhry.h	370;"	d
+Microseconds	dhry_1.c	/^float           Microseconds,$/;"	v
+NOENUM	dhrystone.c	391;"	d	file:
+NOSTRUCTASSIGN	dhrystone.c	392;"	d	file:
+NULL	dhrystone.c	447;"	d	file:
+NextRecord	dhrystone.c	595;"	d	file:
+NextRecord	dhrystone.c	612;"	d	file:
+Next_Ptr_Glob	dhry_1.c	/^                Next_Ptr_Glob;$/;"	v
+Null	dhry.h	397;"	d
+OneToFifty	dhrystone.c	/^typedef int	OneToFifty;$/;"	t	file:
+OneToThirty	dhrystone.c	/^typedef int	OneToThirty;$/;"	t	file:
+One_Fifty	dhry.h	/^typedef int     One_Fifty;$/;"	t
+One_Thirty	dhry.h	/^typedef int     One_Thirty;$/;"	t
+Pointer_Comp	d_global.s	/^                Pointer_Comp:   Record_Pointer;$/;"	l
+Proc0	dhrystone.c	/^int Proc0()$/;"	f
+Proc1	dhry.p	/^procedure Proc1; (* (PointerParVal: RecordPointer) *)$/;"	p
+Proc1	dhrystone.c	/^int Proc1(PtrParIn)$/;"	f
+Proc2	dhry.p	/^procedure Proc2; (* (var IntParRef: OneToFifty) *)$/;"	p
+Proc2	dhrystone.c	/^int Proc2(IntParIO)$/;"	f
+Proc3	dhry.p	/^procedure Proc3; (* (var PointerParRef: RecordPointer) *)$/;"	p
+Proc3	dhrystone.c	/^int Proc3(PtrParOut)$/;"	f
+Proc4	dhry.p	/^procedure Proc4; (* without parameters *)$/;"	p
+Proc4	dhrystone.c	/^int Proc4()$/;"	f
+Proc5	dhry.p	/^procedure Proc5; (* without parameters *)$/;"	p
+Proc5	dhrystone.c	/^int Proc5()$/;"	f
+Proc6	dhry.p	/^procedure Proc6; (* (    EnumParVal:     Enumeration;$/;"	p
+Proc6	dhrystone.c	/^int Proc6(EnumParIn, EnumParOut)$/;"	f
+Proc7	dhry.p	/^procedure Proc7; (* (    Int1ParVal,$/;"	p
+Proc7	dhrystone.c	/^int Proc7(IntParI1, IntParI2, IntParOut)$/;"	f
+Proc8	dhry.p	/^procedure Proc8; (* (var Array1ParRef: Array1DimInteger;$/;"	p
+Proc8	dhrystone.c	/^int Proc8(Array1Par, Array2Par, IntParI1, IntParI2)$/;"	f
+Proc_1	dhry_1.c	/^Proc_1 (Ptr_Val_Par)$/;"	f
+Proc_2	dhry_1.c	/^Proc_2 (Int_Par_Ref)$/;"	f
+Proc_3	dhry_1.c	/^Proc_3 (Ptr_Ref_Par)$/;"	f
+Proc_4	dhry_1.c	/^Proc_4 () \/* without parameters *\/$/;"	f
+Proc_5	dhry_1.c	/^Proc_5 () \/* without parameters *\/$/;"	f
+Proc_6	dhry_2.c	/^Proc_6 (Enum_Val_Par, Enum_Ref_Par)$/;"	f
+Proc_7	dhry_2.c	/^Proc_7 (Int_1_Par_Val, Int_2_Par_Val, Int_Par_Ref)$/;"	f
+Proc_8	dhry_2.c	/^Proc_8 (Arr_1_Par_Ref, Arr_2_Par_Ref, Int_1_Par_Val, Int_2_Par_Val)$/;"	f
+PtrComp	dhrystone.c	/^	struct Record		*PtrComp;$/;"	m	struct:Record	typeref:struct:Record::Record	file:
+PtrGlb	dhrystone.c	/^RecordPtr	PtrGlb;$/;"	v
+PtrGlbNext	dhrystone.c	/^RecordPtr	PtrGlbNext;$/;"	v
+Ptr_Comp	dhry.h	/^    struct record *Ptr_Comp;$/;"	m	struct:record	typeref:struct:record::record
+Ptr_Glob	dhry_1.c	/^Rec_Pointer     Ptr_Glob,$/;"	v
+REG	dhry_1.c	46;"	d	file:
+REG	dhry_2.c	29;"	d	file:
+REG	dhrystone.c	452;"	d	file:
+Rec_Pointer	dhry.h	/^      } Rec_Type, *Rec_Pointer;$/;"	t	typeref:struct:record
+Rec_Type	dhry.h	/^      } Rec_Type, *Rec_Pointer;$/;"	t	typeref:struct:record
+Record	dhrystone.c	/^struct	Record$/;"	s	file:
+RecordPtr	dhrystone.c	/^typedef RecordType *	RecordPtr;$/;"	t	file:
+RecordType	dhrystone.c	/^typedef struct Record 	RecordType;$/;"	t	typeref:struct:Record	file:
+Reg	dhry_1.c	/^        Boolean Reg = false;$/;"	v
+Reg	dhry_1.c	/^        Boolean Reg = true;$/;"	v
+Str_2_Comp	dhry.h	/^                  char        Str_2_Comp [31];$/;"	m	struct:record::__anon3::__anon5
+Str_30	dhry.h	/^typedef char    Str_30 [31];$/;"	t
+Str_Comp	dhry.h	/^                  char        Str_Comp [31];$/;"	m	struct:record::__anon3::__anon4
+String30	dhrystone.c	/^typedef char	String30[31];$/;"	t	file:
+StringComp	dhrystone.c	/^	String30		StringComp;$/;"	m	struct:Record	file:
+String_Comp	d_global.s	/^                    String_Comp:    String_30;$/;"	l
+String_Comp_2	d_global.s	/^                    String_Comp_2:  String_30;$/;"	l
+String_Par_In_2	d_pack_2.s	/^                   String_Par_In_2:     in     String_30)$/;"	l
+TIME	Makefile	/^TIME = time$/;"	m
+TIMES	dhry.h	350;"	d
+TIMES	dhry.h	351;"	d
+TIMES	dhry.h	358;"	d
+TIMES	dhrystone.c	395;"	d	file:
+TRUE	dhrystone.c	448;"	d	file:
+Too_Small_Time	dhry_1.c	59;"	d	file:
+Too_Small_Time	dhry_1.c	65;"	d	file:
+Too_Small_Time	dhry_1.c	70;"	d	file:
+User_Time	dhry_1.c	/^                User_Time;$/;"	v
+Version	dhrystone.c	/^char	Version[] = "1.0";$/;"	v
+Version	dhrystone.c	/^char	Version[] = "1.1";$/;"	v
+boolean	dhrystone.c	/^typedef int		boolean;$/;"	t	file:
+false	dhry.h	400;"	d
+main	dhry_1.c	/^main ()$/;"	f
+main	dhrystone.c	/^int main()$/;"	f
+memcpy	dhry_1.c	/^memcpy (d, s, l)$/;"	f
+memcpy	dhrystone.c	/^memcpy(d, s, l)$/;"	f
+package	d_global.s	/^package Global_Def is$/;"	l
+package	d_pack_1.s	/^package Pack_1 is$/;"	l
+package	d_pack_2.s	/^package Pack_2 is$/;"	l
+record	dhry.h	/^typedef struct record $/;"	s
+structassign	dhry.h	374;"	d
+structassign	dhry.h	376;"	d
+structassign	dhrystone.c	411;"	d	file:
+structassign	dhrystone.c	413;"	d	file:
+time_info	dhry_1.c	/^struct tms      time_info;$/;"	v	typeref:struct:tms
+true	dhry.h	399;"	d
+var_1	dhry.h	/^                  } var_1;$/;"	m	union:record::__anon3	typeref:struct:record::__anon3::__anon4
+var_2	dhry.h	/^                  } var_2;$/;"	m	union:record::__anon3	typeref:struct:record::__anon3::__anon5
+var_3	dhry.h	/^                  } var_3;$/;"	m	union:record::__anon3	typeref:struct:record::__anon3::__anon6
+variant	dhry.h	/^          } variant;$/;"	m	struct:record	typeref:union:record::__anon3
